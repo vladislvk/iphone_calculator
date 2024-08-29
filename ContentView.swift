@@ -1,7 +1,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var displayText:String = "zxc"
+    @State private var displayText:String = "test"
     
     struct GridItemData: Identifiable {
         let id: Int
