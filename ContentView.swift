@@ -43,7 +43,7 @@ struct ContentView: View {
         .background(Color.black)
     }
     
-    
+    // fix bugs with "/" expression
     func buttonAction(index: Int) {
         let buttonText = textForIndex(index)
         
